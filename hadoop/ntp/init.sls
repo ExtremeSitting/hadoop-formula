@@ -1,3 +1,5 @@
+include:
+  - hadoop-formula.hadoop.iptables
 ntp:
   pkg.installed
 
