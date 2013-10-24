@@ -7,6 +7,8 @@ include:
     - user: hdfs
     - group: hadoop
     - mode: 644
+    - require:
+      - sls: hadoop-formula.hadoop.users_and_dirs
 
 /etc/hadoop/conf/hdfs-site.xml:
   file.managed:

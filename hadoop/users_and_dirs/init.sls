@@ -1,3 +1,6 @@
+include:
+  - hadoop-formulas.hadoop.ntp
+
 hadoop:
   group.present:
     - system: True

@@ -1,3 +1,6 @@
+include:
+  - hadoop-formula.hadoop.hosts
+
 HDP-1.x:
   pkgrepo.managed:
     - humanname: Hortonworks Data Platform Version - HDP-1.x
